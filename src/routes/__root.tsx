@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { createRootRoute, Link, Outlet } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/router-devtools';
+
 import { Menu, X, Mail, Code } from 'lucide-react';
 import { Github, Linkedin } from '../components/SocialIcons';
 
@@ -153,8 +153,6 @@ function RootLayout() {
         </div>
       </footer>
 
-      {/* Router DevTools */}
-      <TanStackRouterDevtools position="bottom-right" />
     </div>
   );
 }
